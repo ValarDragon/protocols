@@ -25,7 +25,7 @@ def poseidon_params(p, t, nRoundsF, nRoundsP, e, constants_C=None, constants_M=N
         assert e == 5
         grobner_attack_ratio_rounds = 0.21
         grobner_attack_ratio_sboxes = 0.14
-        interpolation_attack_ratio = 0.43
+        interpolation_attack_ratio = 0.4306
     else:
         # XXX: in other cases use, can we use 7?
         raise ValueError('Invalid p for congruency')
